@@ -12,6 +12,7 @@ body {
 .btn-primary{
     font-size: 16;
     font-weight: bold;
+    font-family: "Raleway", sans-serif;
     color: #FFFFFF;
     padding: 12px 36px;
     background-color: #4E47FF;
