@@ -1,0 +1,33 @@
+body {
+    /* max-width: 1440px; */
+}
+
+.inter-black {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.btn-primary{
+    font-size: 16;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+
+/* hero section */
+.logo {
+font-size: 34px;
+}
+nav {
+    padding: 0 150px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+}
