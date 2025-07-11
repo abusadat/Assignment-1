@@ -1,5 +1,7 @@
 body {
     /* max-width: 1440px; */
+    margin: 0;
+    padding: 0;
 }
 
 .inter-black {
@@ -23,12 +25,29 @@ body {
 }
 
 /* hero section */
+header {
+    background-image: url("../Assets/Hero-bg.png");
+    /* background-size: cover; */
+    background-position: center;
+}
 .logo {
 font-size: 34px;
 }
 nav {
-    padding: 0 150px;
+    padding: 50px 150px;
     margin-right: 0;
     display: flex;
     justify-content: space-between;
+}
+
+.hero {
+    display: block;
+    margin: auto;
+    padding: 309px 267.5px 237px 267.5px;
+}
+
+.hero-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
 }
