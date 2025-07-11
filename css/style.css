@@ -2,6 +2,7 @@ body {
     /* max-width: 1440px; */
     margin: 0;
     padding: 0;
+    background-color: rgb(244, 245, 255);
 }
 
 .inter-black {
@@ -59,7 +60,6 @@ nav {
     /* justify-content: space-between; */
     gap: 623px;
     padding: 150px 150px;
-    background-color: #FFFFFF;
 }
 
 .action-left {
@@ -189,6 +189,39 @@ nav {
 }
 
 
+/* Ready */
+.ready-section {
+    margin: 150px 150px;
+    padding: 71px 150px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+
+}
+.ready-section img {
+    margin-top: 25px;
+    border-radius: 48px;
+
+}
+.ready-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+.ready-desc {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* You already have this defined */
+.btn-primary {
+
+}
+
+
 /* contact */
 .contact {
     display: flex;
@@ -245,7 +278,9 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
 }
 .footer {
     width: 531px;
@@ -275,3 +310,4 @@ footer {
     text-decoration: none;
     color: #8987A1;
 }
+
